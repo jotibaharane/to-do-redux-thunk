@@ -1,0 +1,59 @@
+.main-feed {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-cont {
+  width: 80%;
+  height: 90%;
+  border: 1px dotted black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h3 {
+  margin-left: auto;
+  margin-right: 160px;
+  color: lightgrey;
+  cursor: pointer;
+}
+
+.h3:hover {
+  color: blue;
+}
+
+.h33 {
+  color: lightgrey;
+  cursor: pointer;
+}
+.h33:hover {
+  color: blue;
+}
+.sub-con {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-grid-cont {
+  min-width: 60%;
+  min-height: 80%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 5px;
+}
+
+.grid-item-feed {
+  box-sizing: border-box;
+  margin: 5px;
+  display:flex;
+  flex-direction: column;
+  background-color: rgb(231, 216, 216);
+}
