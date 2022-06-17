@@ -23,8 +23,8 @@ function Feed() {
               return (
                 <div className="grid-item-feed" key={item.id}>
                   <img src={item.avatar} alt="" />
-                  {item.first_name} {item.last_name}
-                  {item.email}
+                  &nbsp;&nbsp;{item.first_name} {item.last_name} <br />
+                  &nbsp;&nbsp;{item.email}
                 </div>
               );
             })}
